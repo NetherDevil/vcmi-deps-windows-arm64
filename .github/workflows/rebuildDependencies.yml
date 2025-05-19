@@ -15,10 +15,8 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - platform: msvc-x64
-            triplet: x64-windows
-          - platform: msvc-x86
-            triplet: x86-windows
+          - platform: msvc-arm64
+            triplet: arm64-windows
 
     runs-on: windows-latest
     defaults:
